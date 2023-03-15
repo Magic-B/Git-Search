@@ -13,8 +13,12 @@ import IconInstagram from './icons/IconInstagram.vue'
 import IconGithub from './icons/IconGithub.vue'
 
 export default {
-    name: 'AllIcons',
-    props: ['name'],
-    components: {IconLogo, IconSearch, IconError, IconStar, IconTelegram, IconMail, IconInstagram, IconGithub}
+	props: {
+		name: {
+			type: String,
+			required: true
+		}
+	},
+	components: {IconLogo, IconSearch, IconError, IconStar, IconTelegram, IconMail, IconInstagram, IconGithub}
 }
 </script>

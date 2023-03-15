@@ -11,6 +11,19 @@ $primary: #fff;
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 10px #FFFFFF;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
 :root {
     --animate-duration: 2s;
 }
@@ -143,20 +156,67 @@ header {
     .input_btn:hover {
         box-shadow: 0 0 5px $main_color;
     }
-
 }
 
-::-webkit-scrollbar {
-    width: 10px;
+.review_profile {
+    width: 100%;
+    margin-top: 35px;
+ 
+    &_img {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        width: 130px;
+        height: 130px;
+        border-radius: 65px;
+    }
+    &_name {
+        margin-top: 10px;
+        text-align: center;
+        color: #fff;
+        font-family: 'NanumGothic', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    &_btn {
+        all: unset;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        cursor: pointer;
+        background: #fff;
+        color: #2EA44F;
+        width: 110px;
+        height: 40px;
+        border-radius: 50px;
+        transition: all .4s;
+    }
+    &_btn:hover {
+        box-shadow: 0 0 5px #fff;
+    }
 }
-::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0px 0px 10px #FFFFFF;
-    border-radius: 20px;
-}
-::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
+
+.error {
+	width: 100%;
+	margin-top: 50px;
+	&_icon {
+		display: block;
+		margin: 0 auto;
+		width: 100px;
+		height: 100px;
+	}
+	&_title {
+		text-align: center;
+		color: #fff;
+		margin-top: 10px;
+	}
 }
 
 .repos_scroll {

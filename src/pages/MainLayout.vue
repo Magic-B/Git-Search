@@ -1,5 +1,5 @@
 <template>
-    <section class="main_section">
+  <section class="main_section">
 		<img src="@/assets/bg/bg_circle.png" alt="bg" class="circle_bg">
 		<div class="container">
 			<MainHeader/>
@@ -20,8 +20,8 @@
 import MainHeader from '../components/MainHeader.vue'
 
 export default {
-	name: 'MainLayout',
-	props: ['profile'],
-	components: {MainHeader}
+	components: {
+		MainHeader
+	}
 }
 </script>

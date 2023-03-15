@@ -20,7 +20,9 @@
 import AllIcons from './AllIcons.vue'
 
 export default {
-components: {AllIcons},
+components: {
+	AllIcons
+},
 name: 'MainHeader'
 }
 </script>

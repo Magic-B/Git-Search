@@ -17,16 +17,13 @@
 <script>
 import AllIcons from '../components/AllIcons.vue'
 export default {
-    name: 'ProjectsPage',
-    components: {AllIcons},
-    data() {
-      return {
-        mail: false
-      }
+  components: {
+    AllIcons
+  },
+  data() {
+    return {
+      mail: false
     }
+  }
 }
 </script>
-
-<style>
-
-</style>
