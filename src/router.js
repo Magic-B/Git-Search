@@ -17,6 +17,7 @@ const list = [
 ]
 const router = createRouter({
     history: createWebHistory(),
+    base: '/myproject/public_html/',
     routes: [
         {
         path: '/',
