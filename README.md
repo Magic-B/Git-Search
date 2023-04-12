@@ -6,9 +6,11 @@
 
 </div>
 
+</br>
 <div align="center">
-  <img height="300px" src="public/GitSearchIcon.png" />
+  <img height="100px" src="public/logo.svg" />
 </div>
+</br>
 
 ## About GitSearch 📰
 
