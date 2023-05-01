@@ -40,4 +40,4 @@ npm run lint
 
 
 ### Deployment
-This application can be used on Vercel - https://git-search-rho-three.vercel.app/
+This application can be used on Vercel - https://git-search-rho-three.vercel.app
